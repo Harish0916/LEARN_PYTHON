@@ -474,13 +474,42 @@ num2 = [1,2,3,4,5]
 # print(all([num%2 == 0 for num in num1]))
 # ---------------
 
-print(all([num%2 == 0 for num in num2])) # False
-print(any([num%2 == 0 for num in num2])) # True
+# print(all([num%2 == 0 for num in num2])) # False
+# print(any([num%2 == 0 for num in num2])) # True
 
 # ------------
 
+# x = 1 #int
+# y = 2.8 # float
+# z = 1j # complex
 
+ #convert from int to float:
+# a = float(x)
+# print(a)
+ #convert from float to int:
+# b = int(y)
+# print(b)
+ #convert from int to complex:
+# c = complex(x)
+# print(c)
+# ======================
 
+# import random
+# print(random.randrange(1, 10))
+# i=0
+# while i<10:
+#     print(i)
+#     i=i+1
 
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = []
+# secList = []
+# for x in fruits:
+#     if "a" in x:
+#         newlist.append(x)
+#     else:
+#         secList.append(x)
+# print(newlist)
+# print(secList)
 
-
+-----------------

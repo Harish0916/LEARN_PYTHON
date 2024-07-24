@@ -337,7 +337,77 @@
 # print(my_function(5))
 # print(my_function(9))
 
-def my_function(a, b, /, *, c, d):
-    print(a + b + c + d)
+# def my_function(a, b, /, *, c, d):
+#     print(a + b + c + d)
     
-my_function(5, 6, 8, 9, c = 7, d = 8)
+# my_function(5, 6, 8, 9, c = 7, d = 8)
+
+
+# # -----LAMBDA FUNCTION-------------
+
+# double = lambda a : a**2
+# print(double(13))
+
+# avg = lambda *a : sum(a)/len(a)
+# print(avg(13,14,15))
+
+
+# def double(n): 
+#     return lambda a: a*n
+# print(double(12)(3))
+
+
+# def myfunc(n):
+#     return lambda a : a * n
+
+# # mydoubler = myfunc(2)
+# # print(mydoubler(11))
+# #    or
+# print(myfunc(2)(11))
+
+
+# def myfunc(n):
+#     return lambda a : a * n
+# mydoubler = myfunc(2)
+# mytripler = myfunc(3)
+# print(mydoubler(11))
+# print(mytripler(12))
+
+
+# l1 = [12,13.2,'14', 0]
+# l2= [ True, False]
+# l3 = ["ram", "shyam"]
+
+
+# class MyClass :
+#     pass
+
+# print(type(MyClass))
+
+
+# class MyClass :
+#     x = 12
+#     y = 13
+
+# print(MyClass.x,MyClass.y)
+
+
+def myfunc1():
+    x = "Jane"
+    def myfunc2():
+        nonlocal x
+        x = "hello"
+    myfunc2()
+    return x
+
+
+print(myfunc1())
+
+
+
+
+
+
+
+
+

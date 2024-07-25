@@ -1,0 +1,5 @@
+file1 = open("file1.txt", "w")
+file1.write("Welcome bro\n")
+file1.write("How are you\n")
+file1.write("What are you doing")
+file1.close()

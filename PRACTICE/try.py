@@ -14,8 +14,8 @@
 #     raise Exception("Sorry, no numbers below zero")
 
 
-x = 12
-if not type(x) is int:
-    raise TypeError("Only integers are allowed")
-else:
-    print("x is ", x)
+# x = 12
+# if not type(x) is int:
+#     raise TypeError("Only integers are allowed")
+# else:
+#     print("x is ", x)
